@@ -1,4 +1,4 @@
-# 🧪 Hands-On Lab – Docker Image Commit Workflow & Stateful Container Preservation
+# 🧪 Hands-On Lab – Docker Container Commit Workflow & Image Version Preservation
 
 ---
 
@@ -6,7 +6,7 @@
 
 Executed structured implementation of capturing runtime modifications made inside a running Docker container and converting them into a reusable custom image.
 
-This lab focuses on understanding **container state persistence**, **image creation from modified containers**, and maintaining reproducible container environments for deployment reuse.
+This lab focuses on understanding **container state persistence**, **image commit workflows**, and preparing customized runtime environments for reuse across deployments.
 
 ---
 
@@ -14,60 +14,66 @@ This lab focuses on understanding **container state persistence**, **image creat
 
 Demonstrate hands-on proficiency in:
 
-- Modifying a running Docker container  
-- Preserving container changes as a new image  
-- Versioning custom images  
-- Re-deploying containers from committed images  
-- Maintaining reproducible application states  
+- Pulling and launching base Docker containers  
+- Accessing container runtime environment  
+- Installing additional software inside running container  
+- Preserving container state as a new image  
+- Tagging image for Docker Hub compatibility  
+- Preparing committed image for registry publishing  
 
 ---
 
 # 🛠 Practical Implementation Scope
 
-Performed structured execution of Docker commit workflow including:
+Performed structured container modification and image commit workflow including:
 
-- Launching a base container  
-- Installing or modifying software inside the container  
-- Validating runtime configuration changes  
-- Capturing container state into a new image  
-- Tagging and managing image versions  
-- Deploying new containers from committed image  
+- Pulling official base image from Docker Hub  
+- Launching container instance from base image  
+- Accessing container shell environment  
+- Installing Apache web server within running container  
+- Validating service installation  
+- Exiting container runtime safely  
+- Committing container changes into a new reusable Docker image  
+- Tagging image using Docker Hub naming convention  
+
+This workflow demonstrates transitioning from runtime modifications to reusable image artifacts.
 
 ---
 
 # 🔄 Workflow Execution Highlights
 
-✔ Modified container runtime configuration  
-✔ Installed additional software inside container  
-✔ Verified service availability before commit  
-✔ Converted modified container into reusable image  
-✔ Launched new container from committed image  
-✔ Validated persistence of changes  
+✔ Pulled base Ubuntu image  
+✔ Launched interactive container session  
+✔ Installed Apache web server inside container  
+✔ Validated software installation  
+✔ Captured modified container state into custom image  
+✔ Tagged image using Docker Hub repository naming standards  
+✔ Prepared image for centralized registry publishing  
 
 ---
 
 # 🧠 DevOps Skills Demonstrated
 
+- **Container Runtime Modification**
 - **Docker Commit Workflow Management**
-- **Container State Preservation**
 - **Image Versioning Strategy**
-- **Reproducible Deployment Practices**
-- **Container Lifecycle Governance**
-- **Runtime Environment Validation**
+- **Artifact Preparation for Registry Publishing**
+- **Container State Preservation**
+- **Manual-to-Automated Build Transition Awareness**
 
 ---
 
 # 📊 Enterprise Relevance
 
-Understanding container state preservation is critical in:
+Understanding container commit workflows is important for:
 
 - Rapid prototyping environments  
-- Debugging and troubleshooting workflows  
-- Application patch testing  
-- Pre-production image preparation  
-- Transitioning from manual changes to automated Dockerfile workflows  
+- Debugging and environment replication  
+- Testing production patches  
+- Preparing images before automating via Dockerfile  
+- Transitioning legacy manual configurations into containerized workflows  
 
-This lab builds foundational knowledge required before moving to fully automated image builds using Dockerfiles.
+Although Dockerfile-based builds are preferred for production, commit workflows help in quick environment preservation and debugging scenarios.
 
 ---
 
