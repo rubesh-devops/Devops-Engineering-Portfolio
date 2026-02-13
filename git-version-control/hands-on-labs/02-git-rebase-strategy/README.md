@@ -1,12 +1,12 @@
-# 🧪 Hands-On Lab – Git Rebase Strategy & Commit History Optimization
+# 🧪 Hands-On Lab – Git Rebase Workflow & Commit History Optimization
 
 ---
 
 ## 📌 Lab Overview
 
-Executed practical implementation of **Git Rebase operations** to optimize commit history and maintain a clean, linear project timeline.
+Executed structured implementation of **Git Rebase operations** to maintain a clean, linear commit history and improve branch synchronization workflows.
 
-This lab focuses on mastering rebase workflows used in professional DevOps environments to improve branch hygiene, reduce merge noise, and enhance collaboration efficiency.
+This lab focuses on mastering rebase-based integration strategies used in professional DevOps environments to eliminate unnecessary merge commits and enhance repository readability.
 
 ---
 
@@ -14,60 +14,61 @@ This lab focuses on mastering rebase workflows used in professional DevOps envir
 
 Demonstrate hands-on proficiency in:
 
-- Rebasing feature branches onto updated master branch  
-- Synchronizing branch history  
-- Resolving rebase conflicts  
+- Rebasing local feature branches  
+- Synchronizing branches with updated base branch  
+- Inspecting commit history before and after rebase  
 - Maintaining linear commit structure  
-- Improving repository readability  
+- Improving branch hygiene  
 
 ---
 
 # 🛠 Practical Implementation Scope
 
-Performed structured execution of Git rebase workflow including:
+Performed structured rebase workflow including:
 
-- Creating independent feature branches  
-- Introducing divergent commit history  
-- Updating master branch with new changes  
-- Rebasing feature branch onto latest master  
-- Resolving conflicts during rebase process  
-- Verifying linear commit history  
+- Switching to local feature branch  
+- Rebasing branch onto updated base branch  
+- Reviewing commit history using log inspection  
+- Validating linear commit alignment  
+- Ensuring repository stability post-rebase  
+
+This workflow ensures structured branch synchronization without polluting commit history.
 
 ---
 
 # 🔄 Workflow Execution Highlights
 
-✔ Simulated parallel feature development  
-✔ Introduced commit divergence intentionally  
-✔ Applied rebase to synchronize branches  
-✔ Resolved rebase conflicts manually  
-✔ Maintained clean and linear commit graph  
-✔ Validated repository integrity after rebase  
+✔ Checked out target feature branch  
+✔ Executed rebase onto updated master/develop branch  
+✔ Inspected commit history before rebase  
+✔ Validated linearized commit graph after rebase  
+✔ Ensured no unintended code overrides  
+✔ Maintained repository integrity  
 
 ---
 
 # 🧠 DevOps Skills Demonstrated
 
-- **Git Rebase Workflow Management**
+- **Git Rebase Strategy Implementation**
 - **Commit History Optimization**
-- **Conflict Resolution During Rebase**
-- **Linear Branch Governance**
-- **Advanced Git CLI Proficiency**
-- **Repository Hygiene Practices**
+- **Branch Synchronization Techniques**
+- **Linear Workflow Governance**
+- **Advanced Git CLI Usage**
+- **Repository Hygiene Management**
 
 ---
 
 # 📊 Enterprise Relevance
 
-Rebase strategy is critical in:
+Rebase workflows are critical in:
 
 - Clean CI/CD pipeline integration  
-- Reducing unnecessary merge commits  
 - Maintaining readable commit history  
 - Managing long-running feature branches  
-- Enterprise-level version governance  
+- Avoiding unnecessary merge commits  
+- Enterprise-level release governance  
 
-Proper rebase usage enhances collaboration and ensures structured repository evolution in large development teams.
+Using rebase correctly improves repository clarity and simplifies deployment traceability.
 
 ---
 
@@ -85,4 +86,3 @@ This hands-on lab is part of:
 **Module 2 – Git Version Control**  
 **DevOps Course**  
 **Part of DevOps Architect Master’s Program – Intellipaat**
-
