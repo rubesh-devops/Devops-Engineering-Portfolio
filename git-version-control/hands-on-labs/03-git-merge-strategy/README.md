@@ -4,9 +4,9 @@
 
 ## 📌 Lab Overview
 
-Executed structured implementation of **Git Merge operations** to integrate feature branches into the main codebase while maintaining repository integrity.
+Executed structured implementation of **Git Merge operations** to integrate parallel development branches into a unified codebase while maintaining repository stability.
 
-This lab focuses on mastering merge workflows used in enterprise DevOps environments to safely combine parallel development efforts and maintain controlled release governance.
+This lab focuses on mastering merge-based integration strategies used in enterprise DevOps environments to safely combine feature development with production-ready branches.
 
 ---
 
@@ -14,46 +14,48 @@ This lab focuses on mastering merge workflows used in enterprise DevOps environm
 
 Demonstrate hands-on proficiency in:
 
-- Merging feature branches into integration branches  
-- Managing fast-forward and non-fast-forward merges  
-- Handling merge conflicts  
-- Preserving commit history integrity  
-- Validating code consistency post-merge  
+- Merging source branches into target branches  
+- Validating branch integration workflow  
+- Inspecting commit history after merge  
+- Maintaining repository integrity  
+- Ensuring stable integration into master branch  
 
 ---
 
 # 🛠 Practical Implementation Scope
 
-Performed structured execution of merge-based workflows including:
+Performed structured branch integration workflow including:
 
-- Creating independent feature branches  
-- Introducing divergent changes  
-- Executing branch merges into master/develop  
-- Handling manual merge conflict resolution  
-- Validating commit history post-integration  
-- Ensuring stable branch synchronization  
+- Creating and updating feature branches  
+- Executing merge from source branch into target branch  
+- Reviewing merge results  
+- Inspecting commit history using log analysis  
+- Validating commit graph structure post-merge  
+- Ensuring no unintended code conflicts  
+
+This workflow simulates real-world collaborative branch integration scenarios.
 
 ---
 
 # 🔄 Workflow Execution Highlights
 
-✔ Simulated multi-branch development scenario  
-✔ Executed controlled merge into master branch  
-✔ Managed merge conflict scenarios  
-✔ Preserved production-ready code structure  
-✔ Verified commit tree integrity after merge  
-✔ Maintained clean and traceable repository state  
+✔ Executed controlled merge from feature branch  
+✔ Integrated changes into target branch  
+✔ Verified commit history using log inspection  
+✔ Maintained traceable merge commit structure  
+✔ Preserved production branch stability  
+✔ Validated repository state after integration  
 
 ---
 
 # 🧠 DevOps Skills Demonstrated
 
 - **Branch Integration Governance**
-- **Merge Conflict Resolution**
-- **Fast-Forward & Non-Fast-Forward Merging**
-- **Commit History Preservation**
+- **Merge Strategy Implementation**
+- **Commit History Inspection**
+- **Collaborative Workflow Management**
 - **Production Branch Protection Practices**
-- **Advanced Git CLI Operations**
+- **Git CLI Proficiency**
 
 ---
 
@@ -63,11 +65,11 @@ Merge strategy is critical in:
 
 - Multi-developer collaboration environments  
 - CI/CD automation pipelines  
-- Production release integration  
-- Controlled feature deployment  
+- Production release workflows  
+- Feature integration management  
 - Enterprise version control governance  
 
-Proper merge discipline ensures safe integration of parallel development efforts without compromising production stability.
+Controlled branch merging ensures stable deployments and predictable application behavior in production environments.
 
 ---
 
