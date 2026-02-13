@@ -1,12 +1,12 @@
-# 🧪 Hands-On Lab – Docker Command Operations & Container Lifecycle Management
+# 🧪 Hands-On Lab – Docker CLI Operations & Container Lifecycle Governance
 
 ---
 
 ## 📌 Lab Overview
 
-Executed practical implementation of **core Docker commands** to establish strong containerization fundamentals and command-line proficiency.
+Executed structured implementation of essential **Docker CLI operations** to manage containerized environments effectively.
 
-This lab focuses on mastering essential Docker operations required in real-world DevOps environments for image management, container lifecycle control, and application deployment validation.
+This lab focuses on mastering container lifecycle governance, image management, runtime control, and system resource cleanup — core competencies required in modern DevOps workflows.
 
 ---
 
@@ -14,39 +14,44 @@ This lab focuses on mastering essential Docker operations required in real-world
 
 Demonstrate hands-on proficiency in:
 
-- Docker image management  
-- Container creation and execution  
-- Port mapping and service exposure  
-- Container inspection and monitoring  
-- Image tagging and cleanup  
-- Container start, stop, and removal operations  
+- Verifying Docker installation and environment readiness  
+- Pulling images from centralized container registry  
+- Managing Docker images locally  
+- Running and monitoring containers  
+- Controlling container execution lifecycle  
+- Removing unused containers and images  
 
 ---
 
 # 🛠 Practical Implementation Scope
 
-Performed structured execution of commonly used Docker operations including:
+Performed structured execution of foundational Docker operations including:
 
-- Pulling base images from Docker Hub  
-- Running containers in detached and interactive modes  
-- Mapping container ports to host ports  
-- Inspecting running containers  
-- Viewing container logs  
-- Managing container lifecycle  
-- Listing images and containers  
-- Removing unused containers and images  
+- Validating Docker installation and version compatibility  
+- Pulling official images from Docker Hub repository  
+- Listing locally available Docker images  
+- Launching containers from image references  
+- Monitoring active and stopped containers  
+- Accessing running containers using exec-based shell interaction  
+- Gracefully stopping containers  
+- Forcefully terminating containers when required  
+- Removing stopped containers from system  
+- Cleaning up unused Docker images  
+
+This workflow ensures efficient resource management and stable container lifecycle control.
 
 ---
 
 # 🔄 Workflow Execution Highlights
 
-✔ Pulled official Docker images  
-✔ Launched containers with port mapping  
-✔ Verified containerized service accessibility  
-✔ Monitored container logs  
-✔ Inspected container configurations  
-✔ Managed container start and stop cycles  
-✔ Cleaned up unused resources  
+✔ Verified Docker installation status  
+✔ Pulled images from Docker Hub  
+✔ Launched containers using image references  
+✔ Monitored running and exited containers  
+✔ Accessed container runtime environment  
+✔ Differentiated between graceful shutdown and forced termination  
+✔ Removed stopped containers safely  
+✔ Cleaned unused images to optimize system resources  
 
 ---
 
@@ -55,25 +60,25 @@ Performed structured execution of commonly used Docker operations including:
 - **Docker CLI Proficiency**
 - **Container Lifecycle Management**
 - **Image Repository Interaction**
-- **Port Mapping & Service Exposure**
-- **Container Monitoring & Debugging**
+- **Runtime Monitoring & Debugging**
+- **Graceful vs Forced Termination Strategy**
 - **Resource Cleanup & Optimization**
-- **Infrastructure Isolation Practices**
+- **Environment Isolation Practices**
 
 ---
 
 # 📊 Enterprise Relevance
 
-Docker command proficiency is critical in:
+Docker CLI mastery is critical in:
 
-- CI/CD automation pipelines  
-- Application packaging workflows  
-- Microservices deployment  
-- Kubernetes orchestration environments  
-- Cloud-native infrastructure design  
-- Production container troubleshooting  
+- CI/CD pipeline troubleshooting  
+- Production container monitoring  
+- Kubernetes troubleshooting preparation  
+- Microservices runtime management  
+- Infrastructure cost optimization  
+- Cloud-native application deployment  
 
-Strong container lifecycle management ensures predictable, scalable, and reproducible deployments in enterprise DevOps ecosystems.
+Efficient container lifecycle control ensures stable deployments, optimal resource usage, and predictable infrastructure behavior in enterprise environments.
 
 ---
 
